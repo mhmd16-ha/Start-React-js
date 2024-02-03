@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root {
+  --mainColor: #1abc9c;
+  --secondaryColor: #2c3e50;
+}
+.bg-main{
+background-color: var(--mainColor);
+}
+.sec-color{
+color: var(--secondaryColor);
+}
+.bg-secondary-color{
+  background-color: var(--secondaryColor);
+  }
+.Navbar-bg{
+  background-color:var(--secondaryColor);
+}
+.nav-link.active{
+  background-color: var(--mainColor);
+  border-radius: 10px;
+}
+.w-img{
+  width: 220px;
+}
+.bg-footer{
+  background-color:#1a252f ;
+}
+.portfolio_title{
+  margin-top: 120px;
+  
+}
+.item{
+cursor: pointer;
+}
+.layer{
+  background-color: var(--mainColor);
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  
+}
+.layer:hover{
+  opacity: .9;
+}
+.bg-blue{
+  background-color: rgba(0, 0, 255, 0.438);
+}
+.title{
+  width: 80px;
+  height: 4px;
+}
+input:focus{
+outline: none;
+}
+label{
+  transition:all .5s;
+  color: var(--mainColor);
+}
