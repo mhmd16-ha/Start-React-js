@@ -30,7 +30,7 @@ export default function Navbar() {
             setActive2("");
             setActive1("");
           }}
-          to="/"
+          to="/Start-React-js"
         >
           START FRAMEWORK
         </Link>

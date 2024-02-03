@@ -10,9 +10,8 @@ import Contact from './Contact/Contact';
 function App() {
   const routers =createBrowserRouter([
     {
-      path:"",element:<Layout/>,children:[
+      path:"/Start-React-js",element:<Layout/>,children:[
         {index:true,element:<Home/>},
-        {path:'/Start-React-js',element:<Home/>},
         {path:"about",element:<About/>},
         {path:"portfolio",element:<Portfolio/>},
         {path:"contact",element:<Contact/>},

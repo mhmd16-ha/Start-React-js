@@ -10,7 +10,7 @@ let [labelPassword,setLabelPassword]=useState("bottom-0")
        <h2 className='sec-color text-center portfolio_title fw-bold'>CONATCT SECTION</h2>
        <div className="d-flex justify-content-center">
           <div className="bg-secondary-color title mt-1"></div>
-        <i classNames="fa-solid fa-star px-3"></i>
+        <i className="fa-solid fa-star px-3"></i>
         <div className="bg-secondary-color title  mt-1"></div>
         </div>
        <div className='w-75'>
