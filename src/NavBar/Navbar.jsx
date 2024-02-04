@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
   let [active1, setActive1] = useState("");
@@ -48,33 +48,33 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link
+              <NavLink
                 className={"fw-bold text-light nav-link " + active1}
                 onClick={aboutActive}
                 aria-current="page"
                 to="about"
               >
                 ABOUT
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
+              <NavLink
                 className={"fw-bold text-light nav-link " + active2}
                 onClick={portfolioActive}
                 to="portfolio"
               >
                 PORTFOLIO
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
+              <NavLink
                 className={"fw-bold text-light nav-link " + active3}
                 onClick={contactActive}
                 to="contact"
                 tabindex="-1"
               >
                 CONTACT
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
